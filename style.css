@@ -1,0 +1,96 @@
+
+.card-text h6{
+  font-size: 14px;
+    color: blue;
+    text-align: center;
+    margin-top: 75px;
+}
+.card-text h1{
+  font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+.card-text p{
+  font-size: 14px;
+    color: gray;
+    text-align: center;
+    margin-top: 35px;
+}
+.card-text h1::before{
+  content: "";
+  position: absolute;
+  top: 41px;
+  left: 543px;
+  width: 39px;
+  height: 1px;
+  background-color: blue;
+
+}
+.card-img h1{
+  font-size: 22px;
+    margin-top: 14px;
+}
+.card-img p{
+  font-size: 14px;
+    color: gray;
+
+
+}
+
+.card-img{
+  position: relative;
+}
+
+.card-img::before{
+  content: "";
+    position: absolute;
+    top: 165px;
+    left: 179px;
+    width: 149px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 50px;
+    
+
+}
+
+
+footer{
+  background-color: #081828;
+}
+
+.footer1 p{
+  font-size: 14px;
+    color: white;
+    margin-top: 15px;
+}
+.footer1 ul{
+  list-style: none;
+  display: flex;
+}
+.footer1 ul li{
+  margin: 10px;
+    color: white;
+}
+
+.footer2{
+position: relative;
+}
+
+.footer2::before{
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 20px;
+  width: 5px;
+  height: 21px;
+  background-color: blue;
+}
+.footer2 ul{
+  list-style-type: none;
+}
+.footer2 ul li{
+  color: white;
+    margin-bottom: 15px;
+}
